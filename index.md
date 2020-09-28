@@ -41,7 +41,8 @@ In most cases you'll receive a response of either:<br/>
 or<br/>
 ```/bin/bash```<br/>
 This tells us what PATH file to edit to ensure everything runs smoothly.<br/>
-If you saw:<br/>
+
+* If you saw:<br/>
 ```/bin/zsh```<br/>
 
 Enter:<br/>
