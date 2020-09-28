@@ -8,5 +8,5 @@ Windows 10 can also execute these workflows but offers 3 routes to running Pytho
 [⓪. Set up the **Homebrew package manager** to add **Python 3** and **PIP 3** to your command line using **pyenv**](step_0_cli.md);<br/>
 [①ⓐ. Set up **Microsoft Azure Cloud** for text recognition and extraction](step_1a_azure.md);<br/>
 [①ⓑ. Set up **Google Cloud Platform** for text recognition and extraction](step_1b_gcp.md);<br/>
-[②. Installing and running a Python module **(handprint)** that interacts with Azure and/or GCP and does the work of using computer vision to analyze images or PDFs containing unrecognized written material to return editable text files]
+[②. Installing and running a Python module **(handprint)** that interacts with Azure and/or GCP and does the work of using computer vision to analyze images or PDFs containing unrecognized written material to return editable text files](step_3_handprint.md)
     
