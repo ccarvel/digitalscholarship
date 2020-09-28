@@ -27,7 +27,7 @@ After all that's done, you will once again be put back to the Portal Dashboard. 
 <img src="https://github.com/ccarvel/handprint/raw/master/.graphics/azure-create-computer-vision.png">
 </p>
 
-Fill in the blanks in this form. Give the service a name (for your own organizational purposes), keep the "Free Trial", and for the location, make sure to select `West US`.  For the pricing tier, select the F0 free option.  For the "Resource group", click on the "Create new" link below the blank and create a new resource name &ndash; it can be anything that makes sense, such as "Handprint" or "OCR test" or whatever.
+Fill in the blanks in this form. Give the service a name (for your own organizational purposes), keep the "Free Trial", and for the location, make sure to select `East US`.  For the pricing tier, select the F0 free option.  For the "Resource group", click on the "Create new" link below the blank and create a new resource name &ndash; it can be anything that makes sense, such as "Handprint" or "OCR test" or whatever.
 
 Finally, after the form is done, you should be able to click on the resource name in your Azure Dashboard.  This should lead to a page that looks somewhat like this:
 
@@ -35,4 +35,4 @@ Finally, after the form is done, you should be able to click on the resource nam
 <img src="https://github.com/ccarvel/handprint/raw/master/.graphics/azure-get-keys.png">
 </p>
 
-Double-check that the API endpoint begins with `https://westus.api.cognitive.microsoft.com` in Section 2 and then click on the **Keys** link in Section 1. The key will be a string such as `"18de248475134eb49ae4a4e94b93461c"`. The next page will provide two keys.  You can copy either one and use it in the `microsoft.json` file described in the [instructions for installing Handprint](https://github.com/ccarvel/handprint).
+Double-check what the API endpoint begins with (this *should* be https://eastus.api.cognitive.microsoft.com) in Section 2 and then click on the **Keys** link in Section 1. The key will be a string such as `"18de248475134eb49ae4a4e94b93461c"`. The next page will provide two keys.  You can copy either one and save it in a file `microsoft.json`.
