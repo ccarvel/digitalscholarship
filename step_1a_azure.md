@@ -4,7 +4,7 @@ To sign up for Azure and obtain a key, visit [https://portal.azure.com](https://
 Before you create any service accounts, the Microsoft Azure Dashboard looks somewhat like this:
 
 <p align="center">
-![Azure Dashboard]({{site.baseurl}}/skitch_01.png)
+<img alt="Azure Dashboard" src="https://github.com/ccarvel/handprint/raw/master/.graphics/azure-no-resources.png">
 
 </p>
 
