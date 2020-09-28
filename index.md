@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# RECOGNIZING AND EXTRACTING HANDWRITTEN TEXT USING PYTHON AND HANDPRINT
+This tutorial will help you use Microsoft's Azure and/or Google's Cloud Platform (GCP) to recognize and extract handwritten text from image or PDF files.
+This tutorial requires the command line and is macOS-centric. 
+Linux-based systems will likely mirror the steps here--some of the commands or steps will be similar though not identical. 
+Windows 10 can also execute these workflows but offers 3 routes to running Python--by using either of two Windows-based Python environments, or, by installing a Linux subsystem for Windows. For Windows 10 users, we suggest the use of a [Linux subsystem installation](https://realpython.com/installing-python/).
 
-You can use the [editor on GitHub](https://github.com/ccarvel/ocr-htr-tutorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The goals for this tutorial are:
+* 0.  Set up the **Homebrew package manager** to add **Python 3** and **PIP 3** to your command line using **pyenv**;
+* 1a. Set up **Microsoft Azure Cloud** for text recognition and extraction;
+* 1b. Set up **Google Cloud Platform** for text recognition and extraction;
+* 2.  Set up your shell **(PATH)** for connecting to Azure and/or GCP for text recognition and extraction;
+* 3.  Installing and running a Python module **(handprint)** that interacts with Azure and/or GCP and does the work of using computer vision to analyze images or PDFs containing unrecognized written material to return editable text files. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 0. INSTALL HOMEBREW, PYTHON, AND PIP
+* Open your macOS Terminal with Spotlight by entering 
+```⌘ + spacebar``` and typing 
+```Terminal```
+to launch the Terminal command line interface
+Take note of which shell your OS is using by typing:
+```echo "$SHELL"```
+In most cases you'll receive a response of either:
+```/bin/zsh```
+or 
+```/bin/bash```
+This tells us what PATH file to edit to ensure everything runs smoothly.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```xcode-select --install
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## 1a.
 
-- Bulleted
-- List
+## 1b.
 
-1. Numbered
-2. List
+## 2. 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ccarvel/ocr-htr-tutorial/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 3. 
