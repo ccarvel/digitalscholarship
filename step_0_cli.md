@@ -41,3 +41,5 @@ Enter:<br/>
 
 * Start a New Shell by typing:<br/>
 ```⌘N```<br/>
+
+➩[Continue to Step 1a. Set up Microsoft Azure Cloud for text recognition and extraction](step_1a_azure.md)
