@@ -4,14 +4,14 @@ To sign up for Azure and obtain a key, visit [https://portal.azure.com](https://
 Before you create any service accounts, the Microsoft Azure Dashboard looks somewhat like this:
 
 <p align="center">
-<img alt="Azure Dashboard" src="https://github.com/ccarvel/handprint/raw/master/.graphics/azure-no-resources.png">
+<img alt="Azure Dashboard" src="https://github.com/ccarvel/handprint/raw/master/.graphics/01_azure_dashboard.png">
 
 </p>
 
 To create a service account, first click on the blue **Create Resources** button.  This will lead to a page where you select resources that looks somewhat like this:
 
 <p align="center">
-<img alt="Create Azure resource" src="https://github.com/ccarvel/handprint/raw/master/.graphics/azure-create-resource.png">
+<img alt="Create Azure resource" src="https://github.com/ccarvel/handprint/raw/master/.graphics/02_azure_create_resource.png">
 </p>
 
 Click **AI + Machine Learning**; this will bring up a list of "Featured" options in the right-hand column (the things with the blue squares in the screen capture above), and there look for **Computer Vision**.  Click on that one.  The next page will look somewhat like this:
@@ -25,7 +25,7 @@ Click **Start Free**, then click through to fill out account information and ide
 After all that's done, you will once again be put back to the Portal Dashboard.  Click on **Create Resources** again, select **AI + Machine Learning** followed by **Computer Vision** again, and this time the following form will appear:
 
 <p align="center">
-<img src="https://github.com/ccarvel/handprint/raw/master/.graphics/azure-create-computer-vision.png">
+<img src="https://github.com/ccarvel/handprint/raw/master/.graphics/04_azure_computer_vision">
 </p>
 
 Fill in the blanks in this form. Give the service a name (for your own organizational purposes), keep the "Free Trial", and for the location, make sure to select `West US`.  For the pricing tier, select the F0 free option.  For the "Resource group", click on the "Create new" link below the blank and create a new resource name &ndash; it can be anything that makes sense, such as "Handprint" or "OCR test" or whatever.
