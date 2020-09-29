@@ -14,7 +14,13 @@ To create a service account, first click on the green **Create Resources** butto
 <img alt="Create Azure resource" src="https://github.com/ccarvel/handprint/raw/master/.graphics/03_azure_ai_machine.png">
 </p>
 
-Click **AI + Machine Learning**; this will bring up a list of "Featured" options in the right-hand column (the things with the blue squares in the screen capture above), and there look for **Computer Vision**.  Click on that one.  The next page will look somewhat like this:
+Click **AI + Machine Learning**; this will bring up a list of "Featured" options in the right-hand column (the things with the blue squares in the screen capture above), and there look for **Computer Vision**.  Click on that one.  
+
+<p align="center">
+<img alt="Azure Dashboard" src="https://github.com/ccarvel/handprint/raw/master/.graphics/04_azure_computer_vision.png">
+</p>
+
+The next page will look somewhat like this:
 
 <p align="center">
 <img alt="Azure Dashboard" src="https://github.com/ccarvel/handprint/raw/master/.graphics/azure-start-free-account.png">
