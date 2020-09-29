@@ -1,4 +1,5 @@
-⇦[Back](index.md)
+⇦[Back](index.md)<br/>
+----
 ## 1. INSTALL HOMEBREW, PYTHON, AND PIP
 * Open your macOS Terminal with Spotlight by entering<br/>
 ```⌘ + spacebar``` and typing:<br/>
