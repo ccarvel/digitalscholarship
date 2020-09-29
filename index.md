@@ -13,3 +13,4 @@ We will be using a Python Package called <a href="https://github.com/caltechlibr
 [⓷. Installing and running a Python module **(handprint)** that interacts with Azure and/or GCP and does the work of using computer vision to analyze images or PDFs containing unrecognized written material to return editable text files](step_3_handprint.md)<br/>
 
 This tutorial would not be possible without <a href="https://github.com/caltechlibrary/handprint" target="_blank">Handprint</a> and its documentation. 
+{% include footer.html %}
