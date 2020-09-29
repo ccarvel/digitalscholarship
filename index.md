@@ -17,7 +17,7 @@ We will be using a Python Package called [Handprint](https://github.com/caltechl
 This tutorial requires the command line and is macOS-centric. 
 Linux-based systems will likely mirror the steps here--some of the commands or steps will be similar though not identical. 
 Windows 10 can also execute these workflows but offers 3 routes to running Python--by using either of two Windows-based Python environments, or, by installing a Linux subsystem for Windows. For Windows 10 users, we suggest the use of a <a href="https://realpython.com/installing-python/">Linux subsystem installation</a>.<br/></p>
-<p>We will be using a Python Package called <a href="https://github.com/caltechlibrary/handprint" target="_blank">Handprint</a>, developed by the Caltech Library to perform text recognition and extraction on image files or PDF documents that contain handwriting.</p>
+<p>We will be using a Python Package called <a href="https://github.com/caltechlibrary/handprint"  target="_blank">Handprint</a>, developed by the Caltech Library to perform text recognition and extraction on image files or PDF documents that contain handwriting.</p>
 <p><strong>The overview of goals for this tutorial are:</strong><br/>
 <a href="step_1_cli.md">⓵. Set up the <strong>Homebrew package manager</strong> to add <strong>Python 3</strong> and <strong>PIP 3</strong> to your command line using <strong>pyenv</strong></a>;<br/>
 <a href="step_2a_azure.md">⓶ⓐ. Set up <strong>Microsoft Azure Cloud</strong> for text recognition and extraction</a>;<br/>
