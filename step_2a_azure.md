@@ -1,3 +1,4 @@
+⇦[Back](step_1_cli.md)
 ## 2a. Set up **Microsoft Azure Cloud** for text recognition and extraction
 To sign up for Azure and obtain a key, visit <a href="https://portal.azure.com" target="_blank">https://portal.azure.com</a> and create a new account.  (Note: you will need to turn off browser security plugins such as Ad&nbsp;Block and uMatrix if you have them, or else the site will not work.)  You can use a version of your Brown Credentials to login to Azure by entering your MyAccount username plus @ad.brown.edu (ex. jcarberry@ad.brown.edu). You will then be redirected to the Microsoft Azure Dashboard <a href="https://portal.azure.com" target="_blank">https://portal.azure.com</a>, from where you can create credentials. Otherwise, if you create a new account, after going through the various screens, you will also end up on the Dashboard page.
 
