@@ -2,7 +2,9 @@
 This tutorial will help you use Microsoft's Azure and/or Google's Cloud Platform (GCP) to recognize and extract handwritten text from image or PDF files.
 This tutorial requires the command line and is macOS-centric. 
 Linux-based systems will likely mirror the steps here--some of the commands or steps will be similar though not identical. 
-Windows 10 can also execute these workflows but offers 3 routes to running Python--by using either of two Windows-based Python environments, or, by installing a Linux subsystem for Windows. For Windows 10 users, we suggest the use of a [Linux subsystem installation](https://realpython.com/installing-python/).
+Windows 10 can also execute these workflows but offers 3 routes to running Python--by using either of two Windows-based Python environments, or, by installing a Linux subsystem for Windows. For Windows 10 users, we suggest the use of a [Linux subsystem installation](https://realpython.com/installing-python/).<br/>
+
+We will be using a Python Package called [Handprint](https://github.com/caltechlibrary/handprint){:target="_blank" rel="noopener"}, developed by the Caltech Library to perform text recognition and extraction on image files or PDF documents that contain handwriting.
 
 **The overview of goals for this tutorial are:**<br/>
 [⓵. Set up the **Homebrew package manager** to add **Python 3** and **PIP 3** to your command line using **pyenv**](step_1_cli.md);<br/>
