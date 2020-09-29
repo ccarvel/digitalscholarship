@@ -288,4 +288,3 @@ The following table summarizes all the command line options available. (Note: on
 ⚑ &nbsp; If URLs are given, then the outputs will be written by default to names of the form `document-n`, where n is an integer.  Examples: `document-1.jpg`, `document-1.handprint-google.txt`, etc.  This is because images located in network content management systems may not have any clear names in their URLs.<br>
 ⬥ &nbsp; To write to the console, use the character `-` as the value of _OUT_; otherwise, _OUT_ must be the name of a file where the output should be written.
 
-⇦[Back](step_2b_gcp.md)<br/>
