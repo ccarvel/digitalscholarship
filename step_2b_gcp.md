@@ -37,7 +37,7 @@ The next page should look something like this:
 <img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/04_google-gcp-new-project_svc_key.png">
 </p>
 
-Click on the "Select..." button and select "New service account", which should be the only option in the pop-up menu anyway.  Give this new service account a name in the "Service account name" field, and then under "Role", click the "Select a role" button and pick "Project"&nbsp;**>**&nbsp;"Owner" as the role.  Finally, click the **Create** button at the bottom.
+1. Click on 'SELECT PROJECT'; then 2. Click on the "Select..." button and select "New service account", which should be the only option in the pop-up menu anyway.  Give this new service account a name in the "Service account name" field, and then under "Role", click the "Select a role" button and pick "Project"&nbsp;**>**&nbsp;"Owner" as the role.  Finally, click the **Create** button at the bottom.
 
 <p align="center">
 <img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/google-gcp-role.png">
