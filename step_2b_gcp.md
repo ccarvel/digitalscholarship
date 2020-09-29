@@ -63,7 +63,7 @@ The previous step should have resulted in a JSON file being downloaded to your c
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/handprint-demo-916%40my-project-1533599323905.iam.gserviceaccount.com"
 }
 ```
-
+Rename the file `mygooglecredentials.json`
 
 
 ## 4. Enable billing
