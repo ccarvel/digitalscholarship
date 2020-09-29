@@ -1,3 +1,4 @@
+⇦[Back](step_2a_azure.md)
 ## 2b. Set up Google Cloud Platform for text recognition and extraction
 
 To enable the use of the Google OCR API, first you must create the necessary credentials in <a href="https://cloud.google.com/docs/overview/#projects" target="_blank">Google Cloud Platform (GCP)</a>.  There is an summary of this process in the Google documentation under the section on <a href="https://cloud.google.com/docs/authentication/getting-started" target="_blank">Creating a service account</a>; what follows below is a walk through with screenshots for better clarity.
