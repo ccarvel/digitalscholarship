@@ -19,13 +19,13 @@ Visit the [Google GCP page for creating service accounts](https://console.cloud.
 This will generate a pop-up dialog in which you can select an existing project or create a new one.  It's probably best to create a new project, so click the "New project" link in the upper right of the pop-up:
 
 <p align="center">
-<img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/google-select-project.png">
+<img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/02_google-gcp-select-project.png">
 </p>
 
 In the page that is presented next, give the project a name that makes sense for your needs, and leave the rest of the fields as they are. Click the **Create** button at the bottom.
 
 <p align="center">
-<img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/google-gcp-new-project.png">
+<img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/03_google-gcp-new-project.png">
 </p>
 
 
@@ -34,7 +34,7 @@ In the page that is presented next, give the project a name that makes sense for
 The next page should look something like this:
 
 <p align="center">
-<img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/google-gcp-create-service-account-key.png">
+<img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/04_google-gcp-new-project_svc_key.png">
 </p>
 
 Click on the "Select..." button and select "New service account", which should be the only option in the pop-up menu anyway.  Give this new service account a name in the "Service account name" field, and then under "Role", click the "Select a role" button and pick "Project"&nbsp;**>**&nbsp;"Owner" as the role.  Finally, click the **Create** button at the bottom.
@@ -82,13 +82,13 @@ The page that comes next will probably say that there is no billing account asso
 Click "Manage billing accounts".  The next screen should look like this:
 
 <p align="center">
-<img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/google-gcp-add-billing-account.png">
+<img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/08_google-gcp-add-billing-account.png">
 </p>
 
 Click "Add billing account". Sign up for $300 of free credit:
 
 <p align="center">
-<img  width="600px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/google-gcp-free.png">
+<img  width="600px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/09_google-gcp-free.png">
 </p>
 
 In the next screen that follows after that one, which will contain a form for filling in your account information, select "Individual" as the "Account type", and fill in the rest with information such as address and a credit card.  The card will not be charged even after the free trial ends; Google does not autocharge but rather uses the card as a way to weed out robots.
