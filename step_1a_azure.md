@@ -8,7 +8,7 @@ Before you create any service accounts, the Microsoft Azure Dashboard looks some
 
 </p>
 
-To create a service account, first click on the blue **Create Resources** button.  This will lead to a page where you select resources that looks somewhat like this:
+To create a service account, first click on the green **Create Resources** button.  This will lead to a page where you select resources that looks somewhat like this:
 
 <p align="center">
 <img alt="Create Azure resource" src="https://github.com/ccarvel/handprint/raw/master/.graphics/03_azure_ai_machine.png">
