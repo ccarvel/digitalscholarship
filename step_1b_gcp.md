@@ -62,8 +62,6 @@ The previous step should have resulted in a JSON file being downloaded to your c
 ```
 
 
-Rename the JSON file to `google_credentials.json` and move that file into the credentials directory used by Handprint. As described in the [README file](https://github.com/ccarvel/handprint), by default, Handprint looks for credentials in a directory named `creds` within the directory where Handprint is installed, but you can use another directory if you run `handprint` with the `-c` option.
-
 
 ## 4. Enable billing
 
