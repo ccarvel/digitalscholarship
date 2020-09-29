@@ -1,5 +1,3 @@
-⇦[Back](index.md)<br/>
-----
 ## 1. INSTALL HOMEBREW, PYTHON, AND PIP
 * Open your macOS Terminal with Spotlight by entering<br/>
 ```⌘ + spacebar``` and typing:<br/>
@@ -44,4 +42,5 @@ Enter:<br/>
 * Start a New Shell by typing:<br/>
 ```⌘N```<br/>
 
-➩[Continue to Step 2a. Set up Microsoft Azure Cloud for text recognition and extraction](step_2a_azure.md)
+➩[Continue to Step 2a. Set up Microsoft Azure Cloud for text recognition and extraction](step_2a_azure.md)<br/>
+⇦[Back](index.md)
