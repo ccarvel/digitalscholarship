@@ -95,6 +95,5 @@ Click "Add billing account". Sign up for $300 of free credit:
 In the next screen that follows after that one, which will contain a form for filling in your account information, select "Individual" as the "Account type", and fill in the rest with information such as address and a credit card.  The card will not be charged even after the free trial ends; Google does not autocharge but rather uses the card as a way to weed out robots.<br/>
 
 ➩[Continue to Step 3. Installing and running a Python module (handprint) that interacts with Azure and/or GCP](step_3_handprint.md)<br/>
-⇦[Back](step_2a_azure.md)
 
 
