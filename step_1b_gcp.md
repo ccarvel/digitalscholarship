@@ -1,5 +1,11 @@
 To enable the use of the Google OCR API, first you must create the necessary credentials in [Google Cloud Platform (GCP)](https://cloud.google.com/docs/overview/#projects).  There is an summary of this process in the Google documentation under the section on [Creating a service account](https://cloud.google.com/docs/authentication/getting-started); what follows below is a walk through with screenshots for better clarity.
 
+**NOTE: YOU SHOULD CREATE A NEW GOOGLE/GMAIL ACCOUNT BEFORE GETTING STARTED WITH GCP; YOU WILL NOT BE ABLE TO USE YOUR BROWN EMAIL ACCOUNT TO CREATE AND RUN PROJECTS. YOU WILL ALSO NEED A CREDIT/DEBIT CARD TO ENABLE BILLING, THOUGH, LIKE MICROSOFT AZURE GCP OFFERS FREE SERVICES AND CREDIT WHEN SIGNING UP**
+
+## 0. Sign up for a Google Account
+
+Since you won't be able to use GCP with your Brown email, [create a new Google Account](https://accounts.google.com/signup?hl=en)
+
 ## 1.  Create a project in Google GCP
 
 Visit the [Google GCP page for creating service accounts](https://console.cloud.google.com/apis/credentials/serviceaccountkey).  Click the project pull-down menu in the top blue bar, located in-between the name "Google Cloud Platform" and search field &ndash; look for the small white down arrow in the screenshot below:
