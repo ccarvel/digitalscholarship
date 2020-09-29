@@ -1,4 +1,3 @@
-⇦[Back](step_2a_azure.md)
 ## 2b. Set up Google Cloud Platform for text recognition and extraction
 
 To enable the use of the Google OCR API, first you must create the necessary credentials in <a href="https://cloud.google.com/docs/overview/#projects" target="_blank">Google Cloud Platform (GCP)</a>.  There is an summary of this process in the Google documentation under the section on <a href="https://cloud.google.com/docs/authentication/getting-started" target="_blank">Creating a service account</a>; what follows below is a walk through with screenshots for better clarity.
@@ -95,6 +94,7 @@ Click "Add billing account". Sign up for $300 of free credit:
 
 In the next screen that follows after that one, which will contain a form for filling in your account information, select "Individual" as the "Account type", and fill in the rest with information such as address and a credit card.  The card will not be charged even after the free trial ends; Google does not autocharge but rather uses the card as a way to weed out robots.<br/>
 
-➩[Continue to Step 3. Installing and running a Python module (handprint) that interacts with Azure and/or GCP](step_3_handprint.md)
+➩[Continue to Step 3. Installing and running a Python module (handprint) that interacts with Azure and/or GCP](step_3_handprint.md)<br/>
+⇦[Back](step_2a_azure.md)
 
 
