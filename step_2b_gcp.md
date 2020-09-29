@@ -1,16 +1,16 @@
 ## 2b. Set up Google Cloud Platform for text recognition and extraction
 
-To enable the use of the Google OCR API, first you must create the necessary credentials in [Google Cloud Platform (GCP)](https://cloud.google.com/docs/overview/#projects).  There is an summary of this process in the Google documentation under the section on [Creating a service account](https://cloud.google.com/docs/authentication/getting-started); what follows below is a walk through with screenshots for better clarity.
+To enable the use of the Google OCR API, first you must create the necessary credentials in <a href="https://cloud.google.com/docs/overview/#projects" target="_blank">Google Cloud Platform (GCP)</a>.  There is an summary of this process in the Google documentation under the section on <a href="https://cloud.google.com/docs/authentication/getting-started" target="_blank">Creating a service account</a>; what follows below is a walk through with screenshots for better clarity.
 
 **NOTE: YOU SHOULD CREATE A NEW GOOGLE/GMAIL ACCOUNT BEFORE GETTING STARTED WITH GCP; YOU WILL NOT BE ABLE TO USE YOUR BROWN EMAIL ACCOUNT TO CREATE AND RUN PROJECTS. YOU WILL ALSO NEED A CREDIT/DEBIT CARD TO ENABLE BILLING, THOUGH, LIKE MICROSOFT AZURE GCP OFFERS FREE SERVICES AND CREDIT WHEN SIGNING UP**
 
 ## 0. Sign up for a Google Account
 
-Since you won't be able to use GCP with your Brown email, [create a new Google Account](https://accounts.google.com/signup?hl=en)
+Since you won't be able to use GCP with your Brown email, <a href="https://accounts.google.com/signup?hl=en" target="_blank">create a new Google Account</a>
 
 ## 1.  Create a project in Google GCP
 
-Visit the [Google GCP page for creating service accounts](https://console.cloud.google.com/apis/credentials/serviceaccountkey).  Click the project pull-down menu in the top blue bar, located in-between the name "Google Cloud Platform" and search field &ndash; look for the small white down arrow in the screenshot below:
+Visit the <a href="https://console.cloud.google.com/apis/credentials/serviceaccountkey" target="_blank">Google GCP page for creating service accounts</a>.  Click the project pull-down menu in the top blue bar, located in-between the name &quot;Google Cloud Platform&quot; and search field &ndash; look for the small white down arrow in the screenshot below:
 
 <p align="center">
 <img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/google-gcp-create-service-account-key.png">
@@ -68,7 +68,7 @@ The previous step should have resulted in a JSON file being downloaded to your c
 
 ## 4. Enable billing
 
-Billing needs to enabled before the account can be used for accessing Google cloud API resources.  Go back to the [GCP dashboard]() and look for the "Billing" option in the left-hand list:
+Billing needs to enabled before the account can be used for accessing Google cloud API resources.  Go back to the GCP dashboard and look for the "Billing" option in the left-hand list:
 
 <p align="center">
 <img  width="500px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/google-gcp-billing.png">
@@ -92,4 +92,8 @@ Click "Add billing account". Sign up for $300 of free credit:
 <img  width="600px" src="https://github.com/ccarvel/handprint/raw/master/.graphics/09_google-gcp-free.png">
 </p>
 
-In the next screen that follows after that one, which will contain a form for filling in your account information, select "Individual" as the "Account type", and fill in the rest with information such as address and a credit card.  The card will not be charged even after the free trial ends; Google does not autocharge but rather uses the card as a way to weed out robots.
+In the next screen that follows after that one, which will contain a form for filling in your account information, select "Individual" as the "Account type", and fill in the rest with information such as address and a credit card.  The card will not be charged even after the free trial ends; Google does not autocharge but rather uses the card as a way to weed out robots.<br/>
+
+➩[Continue to Step 3. Installing and running a Python module (handprint) that interacts with Azure and/or GCP](step_3_handprint.md)
+
+
