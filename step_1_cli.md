@@ -1,5 +1,5 @@
 ## 1. INSTALL HOMEBREW, PYTHON, AND PIP
-* Open your macOS Terminal with Spotlight by entering<br/>
+Open your macOS Terminal with Spotlight by entering<br/>
 ```⌘ + spacebar``` and typing:<br/>
 ```Terminal```<br/>
 to launch the Terminal command line interface.<br/><br/>
