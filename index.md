@@ -12,4 +12,4 @@ We will be using a Python Package called <a href="https://github.com/caltechlibr
 [⓶ⓑ. Set up **Google Cloud Platform** for text recognition and extraction](step_2b_gcp.md);<br/>
 [⓷. Installing and running a Python module **(handprint)** that interacts with Azure and/or GCP and does the work of using computer vision to analyze images or PDFs containing unrecognized written material to return editable text files](step_3_handprint.md)<br/>
  
-{% include footer.md %}
+{% include footer.html %}
