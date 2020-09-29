@@ -45,3 +45,4 @@ Finally, after the form is done, you should be able to click on the resource nam
 Double-check what the API endpoint begins with (this *should* be https://westus.api.cognitive.microsoft.com) in Section 2 and then click on the **Keys** link in Section 1. The key will be a string such as `"18de248475134eb49ae4a4e94b93461c"`. The next page will provide two keys.  You can copy either one and save it in a file `myazurecredentials.json`.
 
 ➩[Continue to Step 2b. Set up Google Cloud Platform for text recognition and extraction](step_2b_gcp.md)<br/>
+{% include footer.html %}
