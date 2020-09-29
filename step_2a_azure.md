@@ -1,4 +1,3 @@
-⇦[Back](step_1_cli.md)
 ## 2a. Set up **Microsoft Azure Cloud** for text recognition and extraction
 To sign up for Azure and obtain a key, visit <a href="https://portal.azure.com" target="_blank">https://portal.azure.com</a> and create a new account.  (Note: you will need to turn off browser security plugins such as Ad&nbsp;Block and uMatrix if you have them, or else the site will not work.)  You can use a version of your Brown Credentials to login to Azure by entering your MyAccount username plus @ad.brown.edu (ex. jcarberry@ad.brown.edu). You will then be redirected to the Microsoft Azure Dashboard <a href="https://portal.azure.com" target="_blank">https://portal.azure.com</a>, from where you can create credentials. Otherwise, if you create a new account, after going through the various screens, you will also end up on the Dashboard page.
 
@@ -45,4 +44,5 @@ Finally, after the form is done, you should be able to click on the resource nam
 
 Double-check what the API endpoint begins with (this *should* be https://westus.api.cognitive.microsoft.com) in Section 2 and then click on the **Keys** link in Section 1. The key will be a string such as `"18de248475134eb49ae4a4e94b93461c"`. The next page will provide two keys.  You can copy either one and save it in a file `myazurecredentials.json`.
 
-➩[Continue to Step 2b. Set up Google Cloud Platform for text recognition and extraction](step_2b_gcp.md)
+➩[Continue to Step 2b. Set up Google Cloud Platform for text recognition and extraction](step_2b_gcp.md)<br/>
+⇦[Back](step_1_cli.md)
