@@ -1,3 +1,8 @@
+---
+layout: default
+title: 1. Install Homebrew, Python3 and Pip3
+nav_order: 2
+---
 ## 1. INSTALL HOMEBREW, PYTHON, AND PIP
 * Open your macOS Terminal with Spotlight by entering<br/>
 ```⌘ + spacebar``` and typing:<br/>

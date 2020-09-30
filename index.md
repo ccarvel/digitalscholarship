@@ -1,3 +1,11 @@
+---
+layout: default
+title: Overview
+nav_order: 1
+description: "Recognizing and Extracting Handwritten Text Using Python and Handprint"
+permalink: /
+---
+
 # RECOGNIZING AND EXTRACTING HANDWRITTEN TEXT USING PYTHON AND HANDPRINT
 This tutorial will help you use Microsoft's Azure and/or Google's Cloud Platform (GCP) to recognize and extract handwritten text from image or PDF files.
 This tutorial requires the command line and is macOS-centric. 
