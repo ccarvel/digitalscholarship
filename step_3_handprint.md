@@ -8,7 +8,7 @@ nav_order: 4
 ☞ Introduction
 -------------
 
-<img align="right" width="550px" src="https://raw.githubusercontent.com/caltechlibrary/handprint/master/.graphics/glaser-example-google.jpg">
+<img align="right" width="450px" src="https://raw.githubusercontent.com/caltechlibrary/handprint/master/.graphics/glaser-example-google.jpg">
 
 Handprint (_**Hand**written **P**age **R**ecognit**i**o**n** **T**est_) is a small project to examine the performance of alternative services for offline [handwritten text recognition (HTR)](https://en.wikipedia.org/wiki/Handwriting_recognition).  It was developed for use with documents from the [Caltech Archives](http://archives.caltech.edu), but it is completely independent and can be applied to any images of text documents.  Services supported include Google's [Google Cloud Vision API](https://cloud.google.com/vision/docs/ocr), Microsoft's Azure [Computer Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/), Amazon's [Textract](https://aws.amazon.com/textract/) and [Rekognition](https://aws.amazon.com/rekognition/), and more.  Among other features, Handprint can generate versions of the input images with recognized text overlaid over them, to visualize the results.  The image at right shows an example.
 
@@ -60,7 +60,7 @@ Microsoft's approach to credentials in Azure involves the use of [subscription k
 }
 ```
 
-The value of "YOURKEYHERE" will be a string such as `"18de248475134eb49ae4a4e94b93461c"`.  To obtain a key, visit [https://portal.azure.com](https://portal.azure.com) and sign in using your account login.  (Note: you will need to turn off browser security plugins such as Ad&nbsp;Block and uMatrix if you have them, or else the site will not work.)  Once you are authenticated to the Azure portal, you can create credentials for using Azure's machine-learning services. Some notes about this can be found in the [Handprint project Wiki pages on GitHub](https://github.com/caltechlibrary/handprint/wiki/Getting-Microsoft-Azure-credentials).  Once you have obtained a key, use a text editor to create a JSON file in the simple format shown above, save that file somewhere on your computer (for the sake of this example, assume it is `myazurecredentials.json`), and use the command discussed above to make Handprint copy the credentials file:
+The value of "YOURKEYHERE" will be a string such as `"18de248475134eb49ae4a4e94b93461c"`.  To obtain a key, see [Step 2a.](step_2a_azure.md), or visit [https://portal.azure.com](https://portal.azure.com) and sign in using your login.  (Note: you will need to turn off browser security plugins such as Ad&nbsp;Block and uMatrix if you have them, or else the site will not work.)  Once you are authenticated to the Azure portal, you can create credentials for using Azure's machine-learning services. Once you have obtained a key, use a text editor to create a JSON file in the simple format shown above, save that file somewhere on your computer (for the sake of this example, assume it is `myazurecredentials.json`), and use the command discussed above to make Handprint copy the credentials file:
 ```sh
 handprint -a microsoft myazurecredentials.json
 ```
@@ -84,7 +84,7 @@ Credentials for using a Google service account need to be stored in a JSON file 
 }
 ```
 
-Getting one of these is summarized in the Google Cloud docs for [Creating a service account](https://cloud.google.com/docs/authentication/), but more explicit instructions can be found in the [Handprint project Wiki pages on GitHub](https://github.com/caltechlibrary/handprint/wiki/Getting-Google-Cloud-credentials).  Once you have downloaded a Google credentials file from Google, save the file somewhere on your computer (for the sake of this example, assume it is `mygooglecredentials.json`), and use the command discussed above to make Handprint copy the credentials file:
+To get your JSON file, see [Step 2b.](step_2b_gcp.md) or the summary in the Google Cloud docs for [Creating a service account](https://cloud.google.com/docs/authentication/). Once you have downloaded a Google credentials file from Google, save the file somewhere on your computer and rename it (for the sake of this example, let's call it `mygooglecredentials.json`), and use the command discussed above to make Handprint copy the credentials file:
 ```sh
 handprint -a google mygooglecredentials.json
 ```
