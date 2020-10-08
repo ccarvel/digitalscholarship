@@ -14,15 +14,6 @@ You can find detailed background and installation instructions for Handprint in 
 
 <br>
 
-<iframe id="github-iframe" src=""></iframe>
-<script>
-    fetch('https://api.github.com/repos/caltechlibrary/handprint/contents/README.md#-installation-and-configuration')
-        .then(function(response) {
-            return response.json();
-        }).then(function(data) {
-            var iframe = document.getElementById('github-iframe');
-            iframe.src = 'data:text/html;base64,' + encodeURIComponent(data['content']);
-        });
-</script>
+<iframe src="data:text/html;base64,aHR0cHM6Ly9naXRodWIuY29tL2NhbHRlY2hsaWJyYXJ5L2hhbmRwcmludC9ibG9iL21hc3Rlci9SRUFETUUubWQjLWludHJvZHVjdGlvbg=="></iframe>
 
 {% include footer.html %}
