@@ -16,7 +16,7 @@ You can find detailed background and installation instructions for Handprint in 
 
 <iframe id="github-iframe" src=""></iframe>
 <script>
-    fetch('https://api.github.com/repos/caltechlibrary/handprint/contents/README.md')
+    fetch('https://api.github.com/repos/caltechlibrary/handprint/contents/README.md#-installation-and-configuration')
         .then(function(response) {
             return response.json();
         }).then(function(data) {
