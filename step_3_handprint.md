@@ -13,7 +13,7 @@ You can find detailed background and installation instructions for Handprint in 
 5. <a href="https://github.com/caltechlibrary/handprint/blob/master/README.md#%EF%B8%8E-usage" target="_blank">Usage</a><br>
 
 <br>
-    <iframe id="github-iframe" src="" style="width:1000px;height:1000px;"></iframe>
+    <iframe id="github-iframe" src="https://api.github.com/repos/caltechlibrary/handprint/contents/README.md#-introduction" style="width:1000px;height:1000px;"></iframe>
     <script>
         fetch('https://api.github.com/repos/caltechlibrary/handprint/contents/README.md#-introduction')
             .then(function(response) {
