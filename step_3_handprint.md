@@ -4,8 +4,6 @@ title: "3. Install and Run Handprint: A Python Package for Handwritten Text Reco
 nav_order: 4
 ---
 ## 3. Install and Run Handprint: A Python Package for Handwritten Text Recognition
-<div class="html-container">
-<iframe src="https://github.com/caltechlibrary/handprint/blob/master/README.md#-installation" allowfullscreen="" frameborder="0">></iframe>
-  </div>
+You can find detailed background and installation instructions for Handprint in the [https://github.com/caltechlibrary/handprint](Handprint repository)<br>
 
 {% include footer.html %}
