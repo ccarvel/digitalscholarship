@@ -13,7 +13,12 @@ You can find detailed background and installation instructions for Handprint in 
 5. <a href="https://github.com/caltechlibrary/handprint/blob/master/README.md#%EF%B8%8E-usage" target="_blank">Usage</a><br>
 
 <br>
-
+<script>
+  a = document.getElementsByTagName('body')[0];
+b = document.createElement('iframe');
+b.src = "data:text/html;base64,aHR0cHM6Ly9naXRodWIuY29tL2NhbHRlY2hsaWJyYXJ5L2hhbmRwcmludC9ibG9iL21hc3Rlci9SRUFETUUubWQjLWludHJvZHVjdGlvbg==";
+a.appendChild(b);
+  </script>
 <iframe src="data:text/html;base64,aHR0cHM6Ly9naXRodWIuY29tL2NhbHRlY2hsaWJyYXJ5L2hhbmRwcmludC9ibG9iL21hc3Rlci9SRUFETUUubWQjLWludHJvZHVjdGlvbg=="></iframe>
 
 {% include footer.html %}
