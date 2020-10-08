@@ -6,7 +6,8 @@ nav_order: 4
 ## 3. Install and Run Handprint: A Python Package for Handwritten Text Recognition
 You can find detailed background and installation instructions for Handprint in the [Handprint Repo](https://github.com/caltechlibrary/handprint)<br>
 
-## Installation
+To enable the use of the Google OCR API, first you must create the necessary credentials in <a href="https://cloud.google.com/docs/overview/#projects" target="_blank">Google Cloud Platform (GCP)</a>.  
+
 1. <a href="https://github.com/caltechlibrary/handprint/blob/master/README.md#-installation-and-configuration target="_blank">Install and Configure</a><br>
 2. <a href="https://github.com/caltechlibrary/handprint/blob/master/README.md#-add-cloud-service-credentials target="_blank">Add Cloud Services</a><br>
 3. <a href="https://github.com/caltechlibrary/handprint/blob/master/README.md#microsoft target="_blank">Microsoft</a><br>
