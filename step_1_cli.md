@@ -3,7 +3,9 @@ layout: default
 title: 1. Install Homebrew, Python3 and Pip3
 nav_order: 2
 ---
-## 1. INSTALL HOMEBREW, PYTHON, AND PIP
+## 1. INSTALL HOMEBREW, PYTHON, AND PIP ON A MAC
+To do this we have to install XCode, which is the Macintosh developer tool package and Homebrew which is a common package manager that handles installation and update of mostly open source software. If you are familiar with other package managers, they will work as well.
+
 * Open your macOS Terminal with Spotlight by entering<br/>
 ```⌘ + spacebar``` and typing:<br/>
 ```Terminal```<br/>
