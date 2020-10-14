@@ -9,7 +9,7 @@ nav_order: 2
 ```Terminal```<br/>
 to launch the Terminal command line interface.<br/><br/>
 
-* Next, install Xcode Command Line Tools, whic are required ot install the Homebrew Package Manager<br/>
+* Next, install Xcode Command Line Tools, whic are required to install the Homebrew Package Manager<br/>
 ```xcode-select --install```<br/>
 A prompt should appear asking you to confirm the installation of Xcode (you may need to enter your password)<br/>
 
