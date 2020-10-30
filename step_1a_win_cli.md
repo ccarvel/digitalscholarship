@@ -1,3 +1,8 @@
+---
+layout: default
+title: 1a. Set up Chocolatey package manager to add Python 3 and PIP 3 to your command line (PowerShell) using anaconda;
+nav_order: 2.5
+---
 Install Chocolatey
 ------------------
 
