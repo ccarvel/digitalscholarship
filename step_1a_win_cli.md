@@ -35,24 +35,7 @@ Close your administrative shell window:
 exit
 ```
 
-Create an alias for Python
---------------------------
-
-In **macOS** Python 3 can usually be executed using either the ```python``` or ```python3```; 
-Right now, your **Windows PowerShell** command line will only   
-the rest of the tutorial refers to the python command as ```python3```
-To better follow the remainder of the tutorial verbatim, we should tell Windows PowerShell to create an alias that turns 
-To follow the remainder of the tutorial, we should tell Windows to treat the python c
 Use Anaconda
 ------------
 
 To use Anaconda's tools in PowerShell, open a new "Anaconda Powershell Prompt". You should then be able to follow the rest of this tutorial.
-
-Note on Running Python
-----------------------
-
-When following the instructions in Handprint tutorial, call python instead of python3.
-
-Note: we could also suggest setting an alias in powershell:
-
-Set-Alias python3 python
