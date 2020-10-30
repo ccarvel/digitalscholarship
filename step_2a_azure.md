@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2a. Set Up Microsoft Azure Cloud for Text Recognition and Extraction
-nav_order: 2
+nav_order: 3
 ---
 ## 2. Creating an account to access Text Recognition Software on Cloud Platforms
 Google's GCP Cloud Vision and Microsoft's Azure Cognitive Computer Vision API are (as of Fall 2020) the two best cloud OCR-HTR services for recognizing and extracting a wide array of printed and handwritten text. Handprint is capable of using Amazon's Rekognition and Textract services but since I have yet to encounter a use case for which Amazon's services have proven more accurate, this tutorial will focus on the use of GCP Cloud Vision and Azure Computer Vision. Both GCP and Azure offer free usage accounts with 1000 and 5000 free units (respectively) for OCR-HTR use per month (think 1000 and 5000 pages/images per month free of charge). They also offer free credits for new users and grants to students, faculty, and staff for additional credits. 
