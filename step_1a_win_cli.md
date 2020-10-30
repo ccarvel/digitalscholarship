@@ -57,4 +57,7 @@ To use Anaconda's tools in PowerShell, open a new "Anaconda Powershell Prompt" (
 <img alt="Start Menu - New Anaconda PowerShell Prompt" src="https://github.com/ccarvel/handprint/blob/master/.graphics/01_new_anaconda_powershell.png"></p>
 You should then be able to follow the rest of this tutorial.
 
+➩[Continue to Step 2a. Set up Microsoft Azure Cloud for text recognition and extraction](step_2a_azure.md)<br/>
+
+{% include footer.html %}
 
