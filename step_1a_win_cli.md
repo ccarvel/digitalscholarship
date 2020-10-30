@@ -47,6 +47,8 @@ You can now close your administrative shell by typing ```exit``` and pressing En
 Use Anaconda (Python3)
 ----------------------
 
-To use Anaconda's tools in PowerShell, open a new "Anaconda Powershell Prompt" (Windows key ⊞ >> Anaconda3 >> Anaconda Powershell Prompt (Anaconda3). You should then be able to follow the rest of this tutorial.
+To use Anaconda's tools in PowerShell, open a new "Anaconda Powershell Prompt" (Windows key ⊞ >> Anaconda3 >> Anaconda Powershell Prompt (Anaconda3).<br> 
+
+You should then be able to follow the rest of this tutorial.
 
 
