@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2b. Set Up Google Cloud Platform for Text Recognition and Extraction
-nav_order: 3
+nav_order: 5
 ---
 ## 2b. Set Up Google Cloud Platform for Text Recognition and Extraction
 
