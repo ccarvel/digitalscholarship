@@ -29,10 +29,16 @@ Also install sudo, which allows you to run command-line applications (like choco
 ```
 choco install sudo
 ```
+Again, you will be asked to confirm this is what you want by entering ```A``` and pressing Enter.
 
-Close your administrative shell window:
+Create an Alias for Python (optional)
+-------------------------------------
+
+The rest of this tutorial uses the command ```python3``` when executing python commands; on **macOS** you can *usually* use the commands ```python``` or ```python3``` interchangeably, but not always. 
+On Windows Anaconda uses ```python``` but will send you to the Microsoft Store to download a different version of Python if you enter ```python3```.
+To follow the rest of the tutorial verbatim, tell Windows to treat the command ```python3``` as an alias for ```python``` by entering the following command in PowerShell:
 ```
-exit
+Set-Alias python3 python
 ```
 
 Use Anaconda
