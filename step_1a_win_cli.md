@@ -40,6 +40,9 @@ To follow the rest of the tutorial verbatim, tell Windows to treat the command `
 ```
 Set-Alias python3 python
 ```
+Or, you can remind yourself that subsequent references to ```python3``` in this tutorial should be run as ```python``` in Windows. 
+
+You can now close your administrative shell by typing ```exit``` and pressing Enter.
 
 Use Anaconda
 ------------
