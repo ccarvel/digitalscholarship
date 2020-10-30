@@ -54,7 +54,7 @@ Use Anaconda (Python3)
 
 To use Anaconda's tools in PowerShell, open a new "Anaconda Powershell Prompt" (Windows key ⊞ >> Anaconda3 >> Anaconda Powershell Prompt (Anaconda3)).<br> 
 <p align="center">
-<img alt="Start Menu - New Anaconda PowerShell Prompt" src="https://github.com/ccarvel/handprint/blob/master/.graphics/01_new_anaconda_powershell.png">
+<img alt="Start Menu - New Anaconda PowerShell Prompt" src="https://github.com/ccarvel/handprint/raw/master/.graphics/01_new_anaconda_powershell.png">
 </p>
 You should then be able to follow the rest of this tutorial.
 
