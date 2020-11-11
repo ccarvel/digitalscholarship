@@ -74,11 +74,12 @@ You can now close your administrative shell by typing ```exit``` and pressing En
 Install Requirements and Handprint
 ----
 
-Download [Requirements](https://raw.githubusercontent.com/ccarvel/ocr-htr-tutorial/gh-pages/requirements.txt)
+Download [requirements.txt](https://raw.githubusercontent.com/ccarvel/ocr-htr-tutorial/gh-pages/requirements.txt)
 
 New CMD or POWERSHELL
 
 ```
+pip install -r requirements.txt
 pip install handprint
 
 ```
