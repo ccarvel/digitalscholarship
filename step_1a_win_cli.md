@@ -13,7 +13,6 @@ Once PowerShell is running, run the following command. It may be easiest to copy
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
-<br>
 
 Install Pyenv-Win
 ----
@@ -47,7 +46,10 @@ pyenv install 3.8.2
 pyenv global 3.8.2
 pyenv local 3.8.2
 ```
-<br>
+Set PATH
+----
+
+New CMD or POWERSHELL
 
 ```
 sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.2;%PATH%"
@@ -55,7 +57,7 @@ sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.2\Scripts;%PATH%"
 sudo setx /m PATH "%HOMEPATH%\appdata\roaming\python\python38\site-packages;%PATH%"
 sudo setx /m PATH "%HOMEPATH%\AppData\Roaming\Python\Python38\Scripts;%PATH%"
 ```
-<br>
+
 Create an Alias for Python (optional)
 -------------------------------------
 
@@ -69,14 +71,15 @@ Or, you can remind yourself that subsequent references to ```python3``` in this 
 
 You can now close your administrative shell by typing ```exit``` and pressing Enter.
 
-Use Anaconda (Python3)
-----------------------
+Install Requirements and Handprint
+----
 
-To use Anaconda's tools in PowerShell, open a new "Anaconda Powershell Prompt" (Windows key ⊞ >> Anaconda3 >> Anaconda Powershell Prompt (Anaconda3)).<br> 
-<p align="center">
-<img alt="Start Menu - New Anaconda PowerShell Prompt" src="https://github.com/ccarvel/handprint/raw/master/.graphics/01_new_anaconda_powershell.png">
-</p>
-You should then be able to follow the rest of this tutorial.
+New CMD or POWERSHELL
+
+```
+pip install handprint
+
+```
 
 ➩[Continue to Step 2a. Set up Microsoft Azure Cloud for text recognition and extraction](step_2a_azure.md)<br/>
 
