@@ -81,7 +81,6 @@ New CMD or POWERSHELL
 ```
 pip install -r requirements.txt
 pip install handprint
-
 ```
 
 ➩[Continue to Step 2a. Set up Microsoft Azure Cloud for text recognition and extraction](step_2a_azure.md)<br/>
