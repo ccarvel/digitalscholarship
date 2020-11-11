@@ -59,7 +59,7 @@ sudo setx /m PATH "%HOMEPATH%\AppData\Roaming\Python\Python38\Scripts;%PATH%"
 ```
 
 Create an Alias for Python (optional)
--------------------------------------
+--------------------
 
 The rest of this tutorial uses the command ```python3``` when executing python commands; on **macOS** you can *usually* use the commands ```python``` or ```python3``` interchangeably, but not always. 
 On Windows Anaconda uses ```python``` but will send you to the Microsoft Store to download a different version of Python if you enter ```python3```.
