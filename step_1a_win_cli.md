@@ -13,6 +13,7 @@ Once PowerShell is running, run the following command. It may be easiest to copy
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
+<br>
 Install Pyenv-Win 
 -----------------
 
@@ -52,7 +53,7 @@ sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.2\Scripts;%PATH%"
 sudo setx /m PATH "%HOMEPATH%\appdata\roaming\python\python38\site-packages;%PATH%"
 sudo setx /m PATH "%HOMEPATH%\AppData\Roaming\Python\Python38\Scripts;%PATH%"
 ```
-
+<br>
 Create an Alias for Python (optional)
 -------------------------------------
 
