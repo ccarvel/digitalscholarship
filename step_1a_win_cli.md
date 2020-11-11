@@ -38,7 +38,8 @@ choco install sudo
 Again, you will be asked to confirm this is what you want by entering ```A``` and pressing Enter.
 
 Install Python via Pyenv
-------------
+------------------------
+
 New CMD or POWERSHELL
 ```
 pyenv install 3.8.2
