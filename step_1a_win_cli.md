@@ -13,18 +13,18 @@ Once PowerShell is running, run the following command. It may be easiest to copy
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
-Install Anaconda 
+Install Pyenv-Win 
 -----------------
 
-[Anaconda](https://www.anaconda.com/open-source) is a collection of data science tools that provides everything you need to use Handprint. You can install the Python 3 version of Anaconda with this command:
+[Pyenv-Win](https://github.com/pyenv-win/pyenv-win) is a Python installation manager, which allows one to install multiple versions of python on their computer. 
 
+*still in Powershell*
 ```
-choco install anaconda3
+choco install pyenv-win 
 ```
 You may be prompted to approve the installation with the following text (or similar):<br>
 ```Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint):```<br>
 Here you can enter ```A``` and press Enter<br>
-As noted during installation, be patient. The Anaconda3 installation can take a while to install (up to 30 minutes).
 
 Install sudo
 ------------
@@ -35,6 +35,23 @@ Also install sudo, which allows you to run command-line applications (like choco
 choco install sudo
 ```
 Again, you will be asked to confirm this is what you want by entering ```A``` and pressing Enter.
+
+Install Python via Pyenv
+------------
+New CMD or POWERSHELL
+```
+pyenv install 3.8.2
+pyenv global 3.8.2
+pyenv local 3.8.2
+```
+<br>
+
+```
+sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.2;%PATH%"
+sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.2\Scripts;%PATH%"
+sudo setx /m PATH "%HOMEPATH%\appdata\roaming\python\python38\site-packages;%PATH%"
+sudo setx /m PATH "%HOMEPATH%\AppData\Roaming\Python\Python38\Scripts;%PATH%"
+```
 
 Create an Alias for Python (optional)
 -------------------------------------
