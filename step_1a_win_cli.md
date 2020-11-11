@@ -74,6 +74,8 @@ You can now close your administrative shell by typing ```exit``` and pressing En
 Install Requirements and Handprint
 ----
 
+Download [Requirements](https://raw.githubusercontent.com/ccarvel/ocr-htr-tutorial/gh-pages/requirements.txt)
+
 New CMD or POWERSHELL
 
 ```
