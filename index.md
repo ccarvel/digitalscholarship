@@ -5,8 +5,8 @@ nav_order: 1
 description: "Recognizing and Extracting Handwritten Text Using Python and Handprint"
 permalink: /
 ---
-*This tutorial is adapted from the [Caltech Handprint repository](https://github.com/caltechlibrary/handprint), by Cody Carvel, Brown University.<br>
-If you have any questions or suggestions, please [email me]((mailto:cody_carvel@brown.edu)*<br>
+*This tutorial is adapted from the [Caltech Handprint repository](https://github.com/caltechlibrary/handprint), by Cody Carvel, Brown University.*<br>
+**If you have any questions or suggestions, please [email me]((mailto:cody_carvel@brown.edu)**<br>
 # RECOGNIZING AND EXTRACTING HANDWRITTEN TEXT USING PYTHON AND HANDPRINT
 This tutorial will help you use two of the most impressive computer vision libraries available: Microsoft's Azure and/or Google's Cloud Platform (GCP) for Handwritten Text Recognition (HTR)--**to recognize and extract handwritten text from image or PDF files**. (Note: The Handprint package can also make use of Amazon's Rekognition and Textract services; we focus on Azure and GCP because their performance has, anecdotally, proven more accurate)<br/><br/>
 This tutorial requires the use of **Terminal in macOS**, or **PowerShell in Windows**
