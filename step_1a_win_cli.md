@@ -14,7 +14,7 @@ Once PowerShell is running, run the following command. It may be easiest to copy
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 <br>
-Install Pyenv-Win 
+Install Pyenv-Win
 -----------------
 
 [Pyenv-Win](https://github.com/pyenv-win/pyenv-win) is a Python installation manager, which allows one to install multiple versions of python on their computer. 
