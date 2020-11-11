@@ -79,7 +79,7 @@ Download [requirements.txt](https://raw.githubusercontent.com/ccarvel/ocr-htr-tu
 New CMD or POWERSHELL
 
 ```
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 pip install handprint
 ```
 
