@@ -21,6 +21,6 @@ If you are using **Windows**, start here:<br/>
 [⓵ⓐ. Set up **Chocolatey package manager** to add **Python 3** and **PIP 3** to your command line (PowerShell) using **pyenv-win**](step_1a_win_cli.md);<br/><br/>
 [⓶ⓐ. Set up **Microsoft Azure Cloud** for text recognition and extraction](step_2a_azure.md);<br/><br/>
 [⓶ⓑ. Set up **Google Cloud Platform** for text recognition and extraction](step_2b_gcp.md);<br/><br/>
-[⓷. Install and Run Handprint, a Python Package for Handwritten Text Recognition](step_3_handprint.md)<br/>
+[⓷. Install and Run **Handprint**, a Python Package for Handwritten Text Recognition](step_3_handprint.md)<br/>
  
 {% include footer.html %}
