@@ -49,6 +49,18 @@ Enter:<br/>
 * Start a New Shell by typing:<br/>
 ```⌘N```<br/>
 
+Install Requirements and Handprint
+----
+
+Download [requirements.txt](https://raw.githubusercontent.com/ccarvel/ocr-htr-tutorial/gh-pages/requirements.txt)
+
+New CMD or POWERSHELL
+
+```
+sudo pip install -r requirements.txt
+pip install handprint
+```
+
 ➩[Continue to Step 2a. Set up Microsoft Azure Cloud for text recognition and extraction](step_2a_azure.md)<br/>
 
 {% include footer.html %}
