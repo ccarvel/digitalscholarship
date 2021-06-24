@@ -57,7 +57,7 @@ Download [requirements.txt](https://raw.githubusercontent.com/ccarvel/ocr-htr-tu
 In macOS Terminal
 
 ```
-sudo pip install -r requirements.txt
+pip install -r requirements.txt
 pip install handprint
 ```
 
