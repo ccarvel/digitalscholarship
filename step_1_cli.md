@@ -67,6 +67,7 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nf
 * Start a New Shell by typing:<br/>
 ```⌘N```
 
+<<<<<<< HEAD
 Install Requirements and Handprint
 ----
 
@@ -80,6 +81,8 @@ pip install -r requirements.txt
 pip install handprint
 ```
 
+=======
+>>>>>>> parent of e54cb9e (Update step_1_cli.md)
 ➩[Continue to Step 2a. Set up Microsoft Azure Cloud for text recognition and extraction](step_2a_azure.md)<br/>
 
 {% include footer.html %}
