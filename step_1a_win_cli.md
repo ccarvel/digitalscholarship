@@ -56,10 +56,10 @@ Set PATH
 New CMD or POWERSHELL
 
 ```
-sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.2;%PATH%"
+sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.5;%PATH%"
 ```
 ```
-sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.2\Scripts;%PATH%"
+sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.5\Scripts;%PATH%"
 ```
 ```
 sudo setx /m PATH "%HOMEPATH%\appdata\roaming\python\python38\site-packages;%PATH%"
