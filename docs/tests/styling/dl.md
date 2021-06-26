@@ -3,6 +3,7 @@ layout: default
 title: Description lists
 parent: Styling
 grand_parent: Tests
+nav_exclude: true
 ---
 
 # Description lists

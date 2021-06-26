@@ -3,6 +3,7 @@ layout: default
 title: Ordered lists
 parent: Styling
 grand_parent: Tests
+nav_exclude: true
 ---
 
 # Ordered lists
