@@ -2,6 +2,7 @@
 layout: default
 title: Tests for disambiguation A
 has_children: true
+nav_exclude: true
 ---
 
 # A
