@@ -61,9 +61,13 @@ Enter:
 ```
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
 ```
-or<br/>
-If you saw:<br/>
-```/bin/bash```
+or
+<br/>
+If you saw:
+<br/>
+```
+/bin/bash
+```
 Enter:<br/>
 ```
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
