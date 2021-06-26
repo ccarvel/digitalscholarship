@@ -17,8 +17,7 @@ to launch the Terminal command line interface.<br/><br/>
 A prompt should appear asking you to confirm the installation of Xcode (you may need to enter your password)<br/>
 
 * Once Xcode is installed, let's fetch and install the Homebrew Package Manager by typing:<br/>
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)
-```<br/>
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)```<br/>
 
 * Once brew is installed, let's install **pyenv** which will let us up to date Python and Pip packages to run our recognition program; it will also allow us to run different versions of the Python language if we need to::<br/>
 ```brew install pyenv```<br/>
