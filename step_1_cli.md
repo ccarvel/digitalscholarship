@@ -9,7 +9,7 @@ To do this we have to install XCode, which is the Macintosh developer tool packa
 
 * Open your macOS Terminal with Spotlight by entering<br/>
 ```⌘ + spacebar``` and typing:<br/>
-```Terminal```<br/>
+```Terminal```
 to launch the Terminal command line interface.<br/>
 
 * Next, install Xcode Command Line Tools, whic are required to install the Homebrew Package Manager<br/>
@@ -19,38 +19,50 @@ xcode-select --install
 A prompt should appear asking you to confirm the installation of Xcode (you may need to enter your password)<br/>
 
 * Once Xcode is installed, let's fetch and install the Homebrew Package Manager by typing:<br/>
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)```<br/>
-
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)
+```
 * Once brew is installed, let's install **pyenv** which will let us up to date Python and Pip packages to run our recognition program; it will also allow us to run different versions of the Python language if we need to::<br/>
-```brew install pyenv```<br/>
-
+```
+brew install pyenv
+```
 * Now let's install the latest Python and Pip software using **pyenv**:<br/>
-```pyenv install 3.8.5```<br/>
+```
+pyenv install 3.8.5
+```
 
 * And let's make this version of Python the default:<br/>
-```pyenv global 3.8.5```<br/>
+```
+pyenv global 3.8.5
+```
 
 * We now need to add this information to our PATH to ensure we'll be using this version of Python in Terminal:<br/>
 Take note of which shell your OS is using by typing:<br/>
-```echo "$SHELL"```<br/>
+```
+echo "$SHELL"
+```
 In most cases you'll receive a response of either:<br/>
-```/bin/zsh```<br/>
+```/bin/zsh```
 or<br/>
-```/bin/bash```<br/>
+```/bin/bash```
 This tells us what PATH file to edit to ensure everything runs smoothly.<br/>
 
 * If you saw:<br/>
-```/bin/zsh```<br/>
+```/bin/zsh```
 Enter:<br/>
-```echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc```<br/>
+```
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+```
 or<br/>
 If you saw:<br/>
-```/bin/bash```<br/>
+```/bin/bash```
 Enter:<br/>
-```echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile```<br/>
+```
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
+```
 
 * Start a New Shell by typing:<br/>
-```⌘N```<br/>
+```⌘N```
 
 Install Requirements and Handprint
 ----
