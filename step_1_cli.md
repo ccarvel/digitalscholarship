@@ -13,7 +13,7 @@ To do this we have to install XCode, which is the Macintosh developer tool packa
 to launch the Terminal command line interface.<br/>
 
 * Next, install Xcode Command Line Tools, whic are required to install the Homebrew Package Manager<br/>
-{% include code.html %}
+{% include codeHeader.html %}
 ```js
 xcode-select --install
 ```
