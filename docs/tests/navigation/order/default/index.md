@@ -4,6 +4,7 @@ title: Default
 parent: Tests for order
 nav_order: 1
 has_children: true
+nav_exclude: true
 ---
 
 # Default Order
