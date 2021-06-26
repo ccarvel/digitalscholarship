@@ -42,9 +42,13 @@ Install Python via Pyenv
 
 New CMD or POWERSHELL
 ```
-pyenv install 3.8.2
-pyenv global 3.8.2
-pyenv local 3.8.2
+pyenv install 3.8.5
+```
+```
+pyenv global 3.8.5
+```
+```
+pyenv local 3.8.5
 ```
 Set PATH
 ----
@@ -53,8 +57,14 @@ New CMD or POWERSHELL
 
 ```
 sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.2;%PATH%"
+```
+```
 sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.2\Scripts;%PATH%"
+```
+```
 sudo setx /m PATH "%HOMEPATH%\appdata\roaming\python\python38\site-packages;%PATH%"
+```
+```
 sudo setx /m PATH "%HOMEPATH%\AppData\Roaming\Python\Python38\Scripts;%PATH%"
 ```
 
@@ -80,10 +90,11 @@ New CMD or POWERSHELL
 
 ```
 sudo pip install -r requirements.txt
+```
+```
 pip install handprint
 ```
 
 ➩[Continue to Step 2a. Set up Microsoft Azure Cloud for text recognition and extraction](step_2a_azure.md)<br/>
 
 {% include footer.html %}
-
