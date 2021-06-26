@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 1. Install Homebrew, Python3 and Pip3 on a Mac
 nav_order: 2
 ---
