@@ -14,7 +14,7 @@ to launch the Terminal command line interface.<br/>
 
 * Next, install Xcode Command Line Tools, whic are required to install the Homebrew Package Manager<br/>
 {% include codeHeader.html %}
-```js
+```yaml
 xcode-select --install
 ```
 A prompt should appear asking you to confirm the installation of Xcode (you may need to enter your password)<br/>
