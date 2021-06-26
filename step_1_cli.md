@@ -23,7 +23,7 @@ A prompt should appear asking you to confirm the installation of Xcode (you may 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)
 ```
-* Once brew is installed, let's install **pyenv** which will let us up to date Python and Pip packages to run our recognition program; it will also allow us to run different versions of the Python language if we need to::<br/>
+* Once brew is installed, let's install **pyenv** which will let us manage python and its PyPip (pip) packages to run our recognition program; it will also allow us to run different versions of the Python language if we need to::<br/>
 ```
 brew install pyenv
 ```
@@ -35,6 +35,9 @@ pyenv install 3.8.5
 * And let's make this version of Python the default:<br/>
 ```
 pyenv global 3.8.5
+```
+```
+pyenv local 3.8.5
 ```
 
 * We now need to add this information to our PATH to ensure we'll be using this version of Python in Terminal:<br/>
@@ -85,10 +88,10 @@ Download [requirements.txt](https://raw.githubusercontent.com/ccarvel/ocr-htr-tu
 
 In macOS Terminal
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 ```
-pip install handprint
+pip3 install handprint
 ```
 
 =======
