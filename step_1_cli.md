@@ -40,10 +40,7 @@ This tells us what PATH file to edit to ensure everything runs smoothly.<br/>
 * If you saw:<br/>
 ```/bin/zsh```<br/>
 Enter:<br/>
-```echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc```
-```
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
-```
+```echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc```<br/>
 or<br/>
 If you saw:<br/>
 ```/bin/bash```<br/>
