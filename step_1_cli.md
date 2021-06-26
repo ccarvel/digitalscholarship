@@ -10,7 +10,7 @@ To do this we have to install XCode, which is the Macintosh developer tool packa
 * Open your macOS Terminal with Spotlight by entering<br/>
 ```⌘ + spacebar``` and typing:<br/>
 ```Terminal```<br/>
-to launch the Terminal command line interface.<br/><br/>
+to launch the Terminal command line interface.<br/>
 
 * Next, install Xcode Command Line Tools, whic are required to install the Homebrew Package Manager<br/>
 ```xcode-select --install```<br/>
