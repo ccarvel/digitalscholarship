@@ -13,9 +13,8 @@ To do this we have to install XCode, which is the Macintosh developer tool packa
 to launch the Terminal command line interface.<br/>
 
 * Next, install Xcode Command Line Tools, whic are required to install the Homebrew Package Manager<br/>
-```js
-xcode-select --install
-```<br/>
+```js xcode-select --install
+```
 A prompt should appear asking you to confirm the installation of Xcode (you may need to enter your password)<br/>
 
 * Once Xcode is installed, let's fetch and install the Homebrew Package Manager by typing:<br/>
