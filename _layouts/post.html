@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<<<<<<< HEAD
 ---
 layout: default
 ---
@@ -45,36 +46,15 @@ layout: default
 </script>
 // assets/js/post.js
 var codeBlocks = document.querySelectorAll('pre.highlight');
+=======
+<script src="/assets/scripts/copyCode.js"></script>
+>>>>>>> parent of 7fde41b (Update post.html)
 
-codeBlocks.forEach(function (codeBlock) {
-  var copyButton = document.createElement('button');
-  copyButton.className = 'copy';
-  copyButton.type = 'button';
-  copyButton.ariaLabel = 'Copy code to clipboard';
-  copyButton.innerText = 'Copy';
-
-  codeBlock.append(copyButton);
-
-  copyButton.addEventListener('click', function () {
-    var code = codeBlock.querySelector('code').innerText.trim();
-    window.navigator.clipboard.writeText(code);
-
-    copyButton.innerText = 'Copied';
-    var fourSeconds = 4000;
-
-    setTimeout(function () {
-      copyButton.innerText = 'Copy';
-    }, fourSeconds);
-  });
-});
 {{ content }}
-<!-- <script src="/assets/scripts/copyCode.js"></script>
-
-
 
 {% comment %}
 
-Copy code to clipboard 
+<!-- Copy code to clipboard -->
 {% endcomment %}
 <script>
   document
@@ -98,4 +78,3 @@ Copy code to clipboard
       pre.appendChild(button);
     });
 </script>
--->
