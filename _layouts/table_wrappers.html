@@ -1,8 +1,6 @@
 ---
 layout: vendor/compress
 ---
- <script src="https://ccarvel.github.io/ocr-htr-tutorial/assets/scripts/copyCode.js"></script>
-
 {% assign content_ = content | replace: '<table', '<div class="table-wrapper"><table' %}
 {% assign content_ = content_ | replace: '</table>', '</table></div>' %}
 {{ content_ }}
