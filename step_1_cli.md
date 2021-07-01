@@ -46,21 +46,14 @@ Take note of which shell your OS is using by typing:<br/>
 echo "$SHELL"
 ```
 In most cases you'll receive a response of either:<br/>
-```
-/bin/zsh
-```
+```/bin/zsh```<br/>
 or<br/>
-```
-/bin/bash
-```
+```/bin/bash```<br/>
 This tells us what PATH file to edit to ensure everything runs smoothly.<br/>
 
 * If you saw:<br/>
-```
-/bin/zsh
-```
+```/bin/zsh```
 Enter:
-<br/>
 ```
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
 ```
@@ -68,18 +61,14 @@ or
 <br/>
 If you saw:
 <br/>
-```
-/bin/bash
-```
+```/bin/bash```
 Enter:<br/>
 ```
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
 ```
 
 * Start a New Shell by typing:<br/>
-```
-⌘N
-```
+```⌘N```
 
 Install Requirements and Handprint
 ----
