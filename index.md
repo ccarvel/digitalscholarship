@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Overview
 nav_order: 1
 description: "Recognizing and Extracting Handwritten Text Using Python and Handprint"
