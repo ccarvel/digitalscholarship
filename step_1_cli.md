@@ -13,9 +13,10 @@ To do this we have to install XCode, which is the Macintosh developer tool packa
 to launch the Terminal command line interface.<br/>
 
 * Next, install Xcode Command Line Tools, whic are required to install the Homebrew Package Manager<br/>
-```
-xcode-select --install
-```
+<input id=code001 value="xcode-select --install"> 
+<button class="btn" data-clipboard-target="#code001">
+  <img src="assets/clippy.svg" alt="Copy to clipboard">
+  </button>
 
 A prompt should appear asking you to confirm the installation of Xcode (you may need to enter your password)<br/>
 
