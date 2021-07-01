@@ -213,7 +213,7 @@ layout: table_wrappers
       button.addEventListener('click', function () {
         var code = pre.querySelector('code').innerText.trim();
         navigator.clipboard.writeText(code);
-        button.innerText = 'Copied';
+        button.innerText = 'COPIED ✔️';
         setTimeout(function () {
           button.innerText = copyText;
         }, 4000);
