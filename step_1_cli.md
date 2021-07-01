@@ -51,17 +51,14 @@ or<br/>
 ```/bin/bash```<br/>
 This tells us what PATH file to edit to ensure everything runs smoothly.<br/>
 
-* If you saw:<br/>
-```/bin/zsh```
-Enter:
+* If you saw:```/bin/zsh```<br/>
+Enter:<br/>
 ```
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
 ```
 or
 <br/>
-If you saw:
-<br/>
-```/bin/bash```
+* If you saw:```/bin/bash```<br/>
 Enter:<br/>
 ```
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
