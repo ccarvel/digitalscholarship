@@ -5,7 +5,6 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-  {% include head.html %}
 
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -199,6 +198,18 @@ layout: table_wrappers
       <div class="search-overlay"></div>
     {% endif %}
   </div>
+      <script src="../dist/clipboard.min.js"></script>
+      <script>
+      var clipboard = new ClipboardJS('.btn');
+
+      clipboard.on('success', function (e) {
+        console.log(e);
+      });
+
+      clipboard.on('error', function (e) {
+        console.log(e);
+      });
+  </script>
 </body>
 
 </html>
