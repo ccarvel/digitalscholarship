@@ -46,9 +46,7 @@ Take note of which shell your OS is using by typing:<br/>
 echo "$SHELL"
 ```
 In most cases you'll receive a response of either:<br/>
-```/bin/zsh```<br/>
-or<br/>
-```/bin/bash```<br/>
+```/bin/zsh``` or ```/bin/bash```<br/>
 This tells us what PATH file to edit to ensure everything runs smoothly.<br/>
 
 * If you saw:```/bin/zsh```<br/>
