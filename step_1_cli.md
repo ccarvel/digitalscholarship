@@ -65,15 +65,11 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nf
 * Start a New Shell by typing:<br/>
 ```⌘N```
 
-Install Requirements and Handprint
+Install Handprint using pip3
 ----
 
-Download [requirements.txt](https://raw.githubusercontent.com/ccarvel/ocr-htr-tutorial/gh-pages/requirements.txt)
 
 In macOS Terminal
-```
-pip3 install -r requirements.txt
-```
 ```
 pip3 install handprint
 ```
