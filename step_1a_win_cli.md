@@ -87,10 +87,6 @@ Install Requirements and Handprint
 Download [requirements.txt](https://raw.githubusercontent.com/ccarvel/ocr-htr-tutorial/gh-pages/requirements.txt)
 
 New CMD or POWERSHELL
-
-```
-sudo pip install -r requirements.txt
-```
 ```
 pip install handprint
 ```
