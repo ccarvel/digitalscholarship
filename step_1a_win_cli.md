@@ -4,7 +4,7 @@ title: 1a. Install Chocolatey, Python3 and Pip3 on Windows
 nav_order: 3
 ---
 ## 1A. INSTALLING PYTHON, PIP, ON WINDOWS USING CHOCOLATEY AND PYENV-WIN
-------------------
+----
 
 [Chocolatey](https://chocolatey.org/install){:target="_blank"} is the Windows package manager.
 
@@ -17,7 +17,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 Install Pyenv-Win
-----------------
+----
 
 [Pyenv-Win](https://github.com/pyenv-win/pyenv-win){:target="_blank"} is a Python installation manager, which allows one to install multiple versions of python on their computer. 
 
@@ -30,7 +30,7 @@ You may be prompted to approve the installation with the following text (or simi
 Here you can enter ```A``` and press Enter<br>
 
 Install sudo
-------------
+----
 
 Also install sudo, which allows you to run command-line applications (like choco) with administration rights without opening an administrator PowerShell window:
 
@@ -40,7 +40,7 @@ choco install sudo
 Again, you will be asked to confirm this is what you want by entering ```A``` and pressing Enter.
 
 Install Python via Pyenv
-------------------------
+----
 
 New POWERSHELL
 ```
@@ -53,7 +53,7 @@ pyenv global 3.8.5
 pyenv local 3.8.5
 ```
 Set PATH to run these from the PowerShell command line
-------------------------------------------------------
+----
 
 New POWERSHELL
 
@@ -71,7 +71,7 @@ sudo setx /m PATH "%HOMEPATH%\AppData\Roaming\Python\Python38\Scripts;%PATH%"
 ```
 
 Create an Alias for Python (optional)
-------------------------------------
+----
 
 The rest of this tutorial uses the command ```python3``` when executing python commands; on **macOS** you can *usually* use the commands ```python``` or ```python3``` interchangeably, but not always. 
 Windows will sometimes send you to the Microsoft Store to download a different version of Python if you enter ```python3```.
