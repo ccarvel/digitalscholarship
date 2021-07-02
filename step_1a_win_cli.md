@@ -3,7 +3,7 @@ layout: default
 title: 1a. Install Chocolatey, Python3 and Pip3 on Windows
 nav_order: 3
 ---
-## 1a. Installing Python, Pip, on Windows Using Chocolatey and pyenv-win
+## 1A. INSTALLING PYTHON, PIP, ON WINDOWS USING CHOCOLATEY AND PYENV-WIN
 ------------------
 
 [Chocolatey](https://chocolatey.org/install){:target="_blank"}is the Windows package manager.
