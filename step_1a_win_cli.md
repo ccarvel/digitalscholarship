@@ -9,6 +9,7 @@ Install Chocolatey
 [Chocolatey](https://chocolatey.org/install) is the Windows package manager.
 
 Open PowerShell in Administrative mode (Windows key ⊞ >> type "Windows Powershell" >> right click >> "Run as Administrator").
+If PowerShell doesn't show up, [install it] (https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1)
 Once PowerShell is running, run the following command. It may be easiest to copy and paste to avoid typos.
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
