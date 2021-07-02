@@ -16,9 +16,11 @@ We will be using a Python Package called <a href="https://github.com/caltechlibr
 
 **The overview of goals for this tutorial are:**<br/>
 If you are using a **Mac**, start here:<br/>
-[⓵. Set up the **Homebrew package manager** to add **Python 3** and **PIP 3** to your command line (Terminal) using **pyenv**](step_1_cli.md);<br/><br/>
+[⓵. Set up the **Homebrew package manager** to add **Python 3** and **PIP 3** 
+to your command line (Terminal) using **pyenv**](step_1_cli.md);<br/><br/>
 If you are using **Windows**, start here:<br/>
-[⓵ⓐ. Set up **Chocolatey package manager** to add **Python 3** and **PIP 3** to your command line (PowerShell) using **pyenv-win**](step_1a_win_cli.md);<br/><br/>
+[⓵ⓐ. Set up **Chocolatey package manager** to add **Python 3** and **PIP 3**
+to your command line (PowerShell) using **pyenv-win**](step_1a_win_cli.md);<br/><br/>
 [⓶ⓐ. Set up **Microsoft Azure Cloud** for text recognition and extraction](step_2a_azure.md);<br/><br/>
 [⓶ⓑ. Set up **Google Cloud Platform** for text recognition and extraction](step_2b_gcp.md);<br/><br/>
 [⓷. Install and Run **Handprint**, a Python Package for Handwritten Text Recognition](step_3_handprint.md)<br/>
