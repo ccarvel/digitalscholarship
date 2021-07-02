@@ -81,11 +81,8 @@ Or, you can remind yourself that subsequent references to ```python3``` in this 
 
 You can now close your administrative shell by typing ```exit``` and pressing Enter.
 
-Install Requirements and Handprint
+Install Handprint
 ----
-
-Download [requirements.txt](https://raw.githubusercontent.com/ccarvel/ocr-htr-tutorial/gh-pages/requirements.txt)
-
 New CMD or POWERSHELL
 ```
 pip install handprint
