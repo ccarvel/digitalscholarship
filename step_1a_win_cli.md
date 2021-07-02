@@ -17,7 +17,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 Install Pyenv-Win
-----
+----------------
 
 [Pyenv-Win](https://github.com/pyenv-win/pyenv-win){:target="_blank"} is a Python installation manager, which allows one to install multiple versions of python on their computer. 
 
@@ -71,7 +71,7 @@ sudo setx /m PATH "%HOMEPATH%\AppData\Roaming\Python\Python38\Scripts;%PATH%"
 ```
 
 Create an Alias for Python (optional)
---------------------
+------------------------------------
 
 The rest of this tutorial uses the command ```python3``` when executing python commands; on **macOS** you can *usually* use the commands ```python``` or ```python3``` interchangeably, but not always. 
 Windows will sometimes send you to the Microsoft Store to download a different version of Python if you enter ```python3```.
