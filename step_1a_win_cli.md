@@ -56,7 +56,6 @@ Set PATH to run these from the PowerShell command line
 ----
 
 New POWERSHELL
-
 ```
 sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.5;%PATH%"
 ```
