@@ -53,7 +53,7 @@ pyenv global 3.8.5
 pyenv local 3.8.5
 ```
 Set PATH to run these from the PowerShell command line
----
+------------------------------------------------------
 
 New POWERSHELL
 
