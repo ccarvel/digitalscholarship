@@ -42,7 +42,7 @@ Again, you will be asked to confirm this is what you want by entering ```A``` an
 Install Python via Pyenv
 ------------------------
 
-New CMD or POWERSHELL
+New POWERSHELL
 ```
 pyenv install 3.8.5
 ```
@@ -52,10 +52,10 @@ pyenv global 3.8.5
 ```
 pyenv local 3.8.5
 ```
-Set PATH
-----
+Set PATH to run these from the PowerShell command line
+---
 
-New CMD or POWERSHELL
+New POWERSHELL
 
 ```
 sudo setx /m PATH "%HOMEPATH%\.pyenv\pyenv-win\versions\3.8.5;%PATH%"
