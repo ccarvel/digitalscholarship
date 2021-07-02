@@ -19,7 +19,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Install Pyenv-Win
 ----
 
-[Pyenv-Win](https://github.com/pyenv-win/pyenv-win) is a Python installation manager, which allows one to install multiple versions of python on their computer. 
+[Pyenv-Win](https://github.com/pyenv-win/pyenv-win){:target="_blank"} is a Python installation manager, which allows one to install multiple versions of python on their computer. 
 
 *still in Powershell*
 ```
