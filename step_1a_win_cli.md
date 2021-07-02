@@ -6,7 +6,7 @@ nav_order: 3
 ## 1a. Installing Python3, Pip3, on Windows Using Chocolatey and pyenv-win
 ------------------
 
-[Chocolatey](https://chocolatey.org/install){:target="_blank"} is the Windows package manager.
+[Chocolatey](https://chocolatey.org/install){:target="_blank"}is the Windows package manager.
 
 Open PowerShell in Administrative mode (Windows key ⊞ >> type "Windows Powershell" >> right click >> "Run as Administrator").<br/>
 If PowerShell doesn't show up,
