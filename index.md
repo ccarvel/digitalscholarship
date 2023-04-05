@@ -25,7 +25,7 @@ permalink: /
 
 8. You will want to install a security certificate on your domain. This will make accessing your site easier and help you avoid seeing warnings from your browser about your site being unsafe--this is what adds the little lock on the url bar and makes your site an https:// site and not simply an http:// site--[instructions from Reclaim are here](https://support.reclaimhosting.com/hc/en-us/articles/4405723680023-Installing-Free-SSL-Certificates#installing-free-ssl-certificates-0-0)
 
-#### INSTALLING OMEKA, SCALAR, OR ANOTHER APPLICATION--
+### INSTALLING OMEKA, SCALAR, OR ANOTHER APPLICATION--Do I need another subdomain?
 - Do you want to install to your current subdomain or create another subdomain for your application?
 
 You can either install your choice of app into the subdomain you picked and issued your security certificate for
@@ -35,14 +35,14 @@ eg-- omeka.yourdomain.digitalscholarship.brown.edu
 
 Creating an additional subdomain has the benefit of keeping your space on the server more orderly. I tend to create a subdomain for each application I install. If you think you will only need to use your digitalscholarship space for a single application you can skip the creation of another subdomain.
 
-#### TO CREATE ADDITIONAL SUBDOMAINS:
+### TO CREATE ADDITIONAL SUBDOMAINS:
 
 1. [See here for Reclaim's guide](https://support.reclaimhosting.com/hc/en-us/articles/1500013046121-Creating-and-Managing-Subdomains)
 
 2. You should then install a security certificate to that subdomain. Again, [Reclaim's instructions are here](https://support.reclaimhosting.com/hc/en-us/articles/4405723680023-Installing-Free-SSL-Certificates#installing-free-ssl-certificates-0-0).
 
 
-#### INSTALL YOUR APPLICATION (Omeka Classic)
+### INSTALL YOUR APPLICATION (Omeka Classic)
 - Reclaim has a [guide for installing Omeka here](https://support.reclaimhosting.com/hc/en-us/articles/1500005712342-Installing-Omeka-Classic-on-Reclaim-Hosting#:~:text=After%20logging%20into%20your%20cPanel,and%20click%20Install%20this%20Application.&text=By%20default%20our%20automated%20installer,up%2Dto%2Ddate%20automatically)
 
 1. On your main cpanel dashboard, select 'All Applications' to see what you can install. We will work with Omeka Classic for this tutorial.<br/>
@@ -80,7 +80,7 @@ or<br/>
 www.yourdomain.digitalscholarship.brown.edu/admin/users/login<br/>
 
 
-#### POST-INSTALLATION TASKS FOR OMEKA CLASSIC
+### POST-INSTALLATION TASKS FOR OMEKA CLASSIC
 
 * [Set up Imagemagick--to help process any images you might add to your site](https://support.reclaimhosting.com/hc/en-us/articles/1500005621461-ImageMagick-in-Omeka-Classic)
 
