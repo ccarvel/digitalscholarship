@@ -9,7 +9,7 @@ permalink: /
 ### SIGNING UP FOR DIGITAL SCHOLARSHIP HOSTING SERVICES AT BROWN
 
 1. Go to [the Digital Scholarship landing page](https://digitalscholarship.brown.edu/) <br/>
-![00_sign-up.png](00_sign-up.png)
+![](https://raw.githubusercontent.com/ccarvel/digitalscholarship/gh-pages/assets/images/00_sign-up.png)
 2. Click Sign Up
 3. Fill out the form, register with your brown email address. 
 4. The form will then be submitted for approval.
@@ -19,9 +19,9 @@ permalink: /
 6. Once you've chosen your subdomain and submitted it, you can login by going to: 
 	* [the Digital Scholarship landing page](digitalscholarship.brown.edu)
 	* You will then be asked to enter your brown credentials via shibboleth. <br/>
-	![02-shib.png](02-shib.png)
+	![](https://raw.githubusercontent.com/ccarvel/digitalscholarship/gh-pages/assets/images/02-shib.png)
 7. Once authenticated you'll be brought to the cpanel dashboard:<br/>
-![03-dashboard.png](03-dashboard.png)
+![](https://raw.githubusercontent.com/ccarvel/digitalscholarship/gh-pages/assets/images/03-dashboard.png)
 
 8. You will want to install a security certificate on your domain. This will make accessing your site easier and help you avoid seeing warnings from your browser about your site being unsafe--this is what adds the little lock on the url bar and makes your site an https:// site and not simply an http:// site--[instructions from Reclaim are here](https://support.reclaimhosting.com/hc/en-us/articles/4405723680023-Installing-Free-SSL-Certificates#installing-free-ssl-certificates-0-0)
 
@@ -46,16 +46,15 @@ Creating an additional subdomain has the benefit of keeping your space on the se
 - Reclaim has a [guide for installing Omeka here](https://support.reclaimhosting.com/hc/en-us/articles/1500005712342-Installing-Omeka-Classic-on-Reclaim-Hosting#:~:text=After%20logging%20into%20your%20cPanel,and%20click%20Install%20this%20Application.&text=By%20default%20our%20automated%20installer,up%2Dto%2Ddate%20automatically)
 
 1. On your main cpanel dashboard, select 'All Applications' to see what you can install. We will work with Omeka Classic for this tutorial.<br/>
-![]()
+![](https://raw.githubusercontent.com/ccarvel/digitalscholarship/gh-pages/assets/images/05-applications.png)
 
 2. Choose the red Omeka icon.<br/>
-![]()
+![](https://raw.githubusercontent.com/ccarvel/digitalscholarship/gh-pages/assets/images/06-omeka.png)
 
 3. Click 'Install this Application'<br/>
-![]()
+![](https://raw.githubusercontent.com/ccarvel/digitalscholarship/gh-pages/assets/images/07-install_01.png)
 
 4. Choose the subdomain you want to install to (one that begins with https://)<br/>
-![]()
 
 5. Fill out the rest of the form's required fields:<br/>
 	* choose a version--3.1; 
