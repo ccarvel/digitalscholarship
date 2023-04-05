@@ -2,27 +2,93 @@
 layout: default
 title: Overview
 nav_order: 1
-description: "Recognizing and Extracting Handwritten Text Using Python and Handprint"
+description: "Digital Scholarship at Brown: Signing up, setting up, installing an application"
 permalink: /
 ---
-*This tutorial is adapted from the [Caltech Handprint repository](https://github.com/caltechlibrary/handprint){:target="_blank"}, by Cody Carvel, Brown University.*<br/>
-**If you have any questions or suggestions, please [email me](mailto:cody_carvel@brown.edu)**<br/>
-# RECOGNIZING AND EXTRACTING HANDWRITTEN TEXT USING PYTHON AND HANDPRINT
-This tutorial will help you use two of the most impressive computer vision libraries available: Microsoft's Azure and/or Google's Cloud Platform (GCP) for Handwritten Text Recognition (HTR)--**to recognize and extract handwritten text from image or PDF files**. (Note: The Handprint package can also make use of Amazon's Rekognition and Textract services; we focus on Azure and GCP because their performance has, anecdotally, proven more accurate)<br/><br/>
-This tutorial requires the use of **Terminal in macOS**, or **PowerShell in Windows**
-**Linux-based systems** will likely work using most of the same commands. 
+**If you have any questions or have an issues, please [email me](mailto:cody_carvel@brown.edu)**<br/>
+###SIGNING UP FOR DIGITAL SCHOLARSHIP HOSTING SERVICES AT BROWN
 
-We will be using a Python Package called <strong><a href="https://github.com/caltechlibrary/handprint" target="_blank">Handprint</a></strong>, developed by the Caltech Library to perform text recognition and extraction on image files or PDF documents that contain handwriting.<br/>
+1. Go to [the Digital Scholarship landing page](https://digitalscholarship.brown.edu/) <br/>
+![00_sign-up.png](00_sign-up.png)
+2. Click Sign Up
+3. Fill out the form, register with your brown email address. 
+4. The form will then be submitted for approval.
+5. Once approved, you'll get a link to choose a subdomain:
+	* yourdomain.digitalscholarship.brown.edu
+	* I suggest choosing something memorable; shorter is better (30 characters or less)
+6. Once you've chosen your subdomain and submitted it, you can login by going to: 
+	* [the Digital Scholarship landing page](digitalscholarship.brown.edu)
+	* You will then be asked to enter your brown credentials via shibboleth. <br/>
+	![02-shib.png](02-shib.png)
+7. Once authenticated you'll be brought to the cpanel dashboard:<br/>
+![03-dashboard.png](03-dashboard.png)
 
-**The overview of goals for this tutorial are:**<br/>
-If you are using a **Mac**, start here:<br/>
-[⓵. Set up the **Homebrew package manager** to add **Python 3** and **PIP 3**<br/> 
-to your command line (Terminal) using **pyenv**](step_1_cli);<br/><br/>
-If you are using **Windows**, start here:<br/>
-[⓵ⓐ. Set up **Chocolatey package manager** to add **Python 3** and **PIP 3**<br/>
-to your command line (PowerShell) using **pyenv-win**](step_1a_win_cli);<br/><br/>
-[⓶ⓐ. Set up **Microsoft Azure Cloud** for text recognition and extraction](step_2a_azure);<br/><br/>
-[⓶ⓑ. Set up **Google Cloud Platform** for text recognition and extraction](step_2b_gcp);<br/><br/>
-[⓷. Install and Run **Handprint**, a Python Package for Handwritten Text Recognition](step_3_handprint)<br/>
+8. You will want to install a security certificate on your domain. This will make accessing your site easier and help you avoid seeing warnings from your browser about your site being unsafe--this is what adds the little lock on the url bar and makes your site an https:// site and not simply an http:// site--[instructions from Reclaim are here](https://support.reclaimhosting.com/hc/en-us/articles/4405723680023-Installing-Free-SSL-Certificates#installing-free-ssl-certificates-0-0)
+
+####INSTALLING OMEKA, SCALAR, OR ANOTHER APPLICATION--
+- Do you want to install to your current subdomain or create another subdomain for your application?
+
+You can either install your choice of app into the subdomain you picked and issued your security certificate for
+(yourdomain.digitalscholarship.brown.edu) <br/>
+or you can create another subdomain (a subdomain of your subdomain) to install to<br/>
+eg-- omeka.yourdomain.digitalscholarship.brown.edu
+
+Creating an additional subdomain has the benefit of keeping your space on the server more orderly. I tend to create a subdomain for each application I install. If you think you will only need to use your digitalscholarship space for a single application you can skip the creation of another subdomain.
+
+####TO CREATE ADDITIONAL SUBDOMAINS:
+
+1. [See here for Reclaim's guide](https://support.reclaimhosting.com/hc/en-us/articles/1500013046121-Creating-and-Managing-Subdomains)
+
+2. You should then install a security certificate to that subdomain. Again, [Reclaim's instructions are here](https://support.reclaimhosting.com/hc/en-us/articles/4405723680023-Installing-Free-SSL-Certificates#installing-free-ssl-certificates-0-0).
+
+
+####INSTALL YOUR APPLICATION (Omeka Classic)
+- Reclaim has a [guide for installing Omeka here](https://support.reclaimhosting.com/hc/en-us/articles/1500005712342-Installing-Omeka-Classic-on-Reclaim-Hosting#:~:text=After%20logging%20into%20your%20cPanel,and%20click%20Install%20this%20Application.&text=By%20default%20our%20automated%20installer,up%2Dto%2Ddate%20automatically)
+
+1. On your main cpanel dashboard, select 'All Applications' to see what you can install. We will work with Omeka Classic for this tutorial.<br/>
+![]()
+
+2. Choose the red Omeka icon.<br/>
+![]()
+
+3. Click 'Install this Application'<br/>
+![]()
+
+4. Choose the subdomain you want to install to (one that begins with https://)<br/>
+![]()
+
+5. Fill out the rest of the form's required fields:<br/>
+	* choose a version--3.1; 
+	* accept the EULA;
+	* choose whether to automatically update;
+	* choose whether to enable automatic backups;
+	* choose an administrator name;
+	* choose an administrator password;
+	* choose an administrator email;
+	* give your site a title;
+
+	* Under Advanced Settings Management, I recommend you select:
+		* 'Automatically manage advanced settings for me.' 
+
+	* Then click **install** at the lower right. <br/>
+
+Installation should take a minute or two.
+
+Once installation is complete you can login to your Omeka site using the admin username and password you set. Some form of the urls below should get you to your login screen.
+
+yourdomain.digitalscholarship.brown.edu/admin/users/login <br/>
+or<br/>
+www.yourdomain.digitalscholarship.brown.edu/admin/users/login<br/>
+
+
+####POST-INSTALLATION TASKS FOR OMEKA CLASSIC
+
+* [Set up Imagemagick--to help process any images you might add to your site](https://support.reclaimhosting.com/hc/en-us/articles/1500005621461-ImageMagick-in-Omeka-Classic)
+
+* Install Escher, a plugin for easily installing plugins and themes:<br/>
+	* [Download the Escher plugin zip file](https://drive.google.com/file/d/1hSzAWkgx8IlWQKaGuSxFi7sCR-Q0HIMa/view?usp=share_link)
+	* Follow the directions for adding the zip file and extracting it as [explained here](https://support.reclaimhosting.com/hc/en-us/articles/1500005711142-Managing-Plugins-and-Themes-in-Omeka-and-Omeka-S)<br/>
+
+* [Optional] [Set your php-cli path](https://support.reclaimhosting.com/hc/en-us/articles/1500007923562-Setting-the-PHP-CLI-path-in-Omeka)
  
 {% include footer.html %}
