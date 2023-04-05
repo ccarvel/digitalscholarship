@@ -17,13 +17,13 @@ permalink: /
 	* yourdomain.digitalscholarship.brown.edu
 	* I suggest choosing something memorable; shorter is better (30 characters or less)
 6. Once you've chosen your subdomain and submitted it, you can login by going to: 
-	* [the Digital Scholarship landing page](digitalscholarship.brown.edu)
+	* [the Digital Scholarship landing page](https://digitalscholarship.brown.edu/){:target="_blank" rel="noopener"}
 	* You will then be asked to enter your brown credentials via shibboleth. <br/>
 	![](https://raw.githubusercontent.com/ccarvel/digitalscholarship/gh-pages/assets/images/02-shib.png)
 7. Once authenticated you'll be brought to the cpanel dashboard:<br/>
 ![](https://raw.githubusercontent.com/ccarvel/digitalscholarship/gh-pages/assets/images/03-dashboard.png)
 
-8. You will want to install a security certificate on your domain. This will make accessing your site easier and help you avoid seeing warnings from your browser about your site being unsafe--this is what adds the little lock on the url bar and makes your site an https:// site and not simply an http:// site--[instructions from Reclaim are here](https://support.reclaimhosting.com/hc/en-us/articles/4405723680023-Installing-Free-SSL-Certificates#installing-free-ssl-certificates-0-0)
+8. You will want to install a security certificate on your domain. This will make accessing your site easier and help you avoid seeing warnings from your browser about your site being unsafe--this is what adds the little lock on the url bar and makes your site an https:// site and not simply an http:// site--[instructions from Reclaim are here](https://support.reclaimhosting.com/hc/en-us/articles/4405723680023-Installing-Free-SSL-Certificates#installing-free-ssl-certificates-0-0){:target="_blank" rel="noopener"}
 
 ### INSTALLING OMEKA, SCALAR, OR ANOTHER APPLICATION--Do I need another subdomain?
 - Do you want to install to your current subdomain or create another subdomain for your application?
@@ -37,9 +37,9 @@ Creating an additional subdomain has the benefit of keeping your space on the se
 
 ### TO CREATE ADDITIONAL SUBDOMAINS:
 
-1. [See here for Reclaim's guide](https://support.reclaimhosting.com/hc/en-us/articles/1500013046121-Creating-and-Managing-Subdomains)
+1. [See here for Reclaim's guide](https://support.reclaimhosting.com/hc/en-us/articles/1500013046121-Creating-and-Managing-Subdomains){:target="_blank" rel="noopener"}
 
-2. You should then install a security certificate to that subdomain. Again, [Reclaim's instructions are here](https://support.reclaimhosting.com/hc/en-us/articles/4405723680023-Installing-Free-SSL-Certificates#installing-free-ssl-certificates-0-0).
+2. You should then install a security certificate to that subdomain. Again, [Reclaim's instructions are here](https://support.reclaimhosting.com/hc/en-us/articles/4405723680023-Installing-Free-SSL-Certificates#installing-free-ssl-certificates-0-0){:target="_blank" rel="noopener"}.
 
 
 ### INSTALL YOUR APPLICATION (Omeka Classic)
@@ -82,12 +82,12 @@ www.yourdomain.digitalscholarship.brown.edu/admin/users/login<br/>
 
 ### POST-INSTALLATION TASKS FOR OMEKA CLASSIC
 
-* [Set up Imagemagick--to help process any images you might add to your site](https://support.reclaimhosting.com/hc/en-us/articles/1500005621461-ImageMagick-in-Omeka-Classic)
+* [Set up Imagemagick--to help process any images you might add to your site](https://support.reclaimhosting.com/hc/en-us/articles/1500005621461-ImageMagick-in-Omeka-Classic){:target="_blank" rel="noopener"}
 
 * Install Escher, a plugin for easily installing plugins and themes:<br/>
-	* [Download the Escher plugin zip file](https://drive.google.com/file/d/1hSzAWkgx8IlWQKaGuSxFi7sCR-Q0HIMa/view?usp=share_link)
-	* Follow the directions for adding the zip file and extracting it as [explained here](https://support.reclaimhosting.com/hc/en-us/articles/1500005711142-Managing-Plugins-and-Themes-in-Omeka-and-Omeka-S)<br/>
+	* [Download the Escher plugin zip file](https://drive.google.com/file/d/1hSzAWkgx8IlWQKaGuSxFi7sCR-Q0HIMa/view?usp=share_link){:target="_blank" rel="noopener"}
+	* Follow the directions for adding the zip file and extracting it as [explained here](https://support.reclaimhosting.com/hc/en-us/articles/1500005711142-Managing-Plugins-and-Themes-in-Omeka-and-Omeka-S){:target="_blank" rel="noopener"}<br/>
 
-* [Optional] [Set your php-cli path](https://support.reclaimhosting.com/hc/en-us/articles/1500007923562-Setting-the-PHP-CLI-path-in-Omeka)
+* [Optional] [Set your php-cli path](https://support.reclaimhosting.com/hc/en-us/articles/1500007923562-Setting-the-PHP-CLI-path-in-Omeka){:target="_blank" rel="noopener"}
  
 {% include footer.html %}
